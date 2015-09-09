@@ -5,12 +5,32 @@
   -o-background-size: cover;
   background-size: cover;
   min-height: 590px;
-  min-width: 100%; }
+  min-width: 100%;
+  padding-top: 30px; }
+  #heroSection #heroLayer {
+    margin-top: -32px;
+    height: 590px;
+    width: 1550px;
+    background-color: #000;
+    opacity: .3;
+    position: absolute; }
   #heroSection #navSection div > div > #navLogo {
     height: 60px;
     width: 60px; }
   #heroSection #navSection div > div > #navBrand {
     height: 63px;
     width: 200px; }
+  #heroSection #navSection div > div#navbar ul.nav {
+    padding-top: 10px; }
+    #heroSection #navSection div > div#navbar ul.nav li a {
+      color: #fff;
+      font-family: "Nobile", sans-serif; }
+  #heroSection #heroContent #heroContentLeft {
+    position: relative;
+    left: 300px; }
+    #heroSection #heroContent #heroContentLeft button.signUpBtn {
+      -moz-border-radius: 30px;
+      -webkit-border-radius: 30px;
+      background: red; }
 
 /*# sourceMappingURL=styling.css.map */

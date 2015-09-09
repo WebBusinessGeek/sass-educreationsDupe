@@ -5,13 +5,29 @@
     background-size: $size;
 }
 
+
+
+$font:  'Nobile', sans-serif;
+
 #heroSection {
     background-image: url('/assets/images/bkg_hero.jpg');
     @include background-size();
     min-height: 590px;
     min-width: 100%;
+    padding-top: 30px;
+    
+    #heroLayer {
+        margin-top: -32px;
+        height: 590px;
+        width: 1550px;
+        background-color: #000;
+        opacity: .3;
+        position: absolute;
+    }
+    
     
     #navSection {
+        
         
         div > div > #navLogo {
             height: 60px;
@@ -24,6 +40,51 @@
             
         }
         
+        div > div#navbar {
+            
+            ul.nav {
+                
+                padding-top: 10px;
+                
+                
+                li {
+                    
+                    a{
+                    color: #fff;
+                    font-family: $font;
+                    
+                    
+                }
+                    
+                } 
+            }
+            
+        }
+        
+    }
+    
+    #heroContent {
+        
+        #heroContentLeft {
+             position: relative;
+                left: 300px;
+            #heroText {
+                
+               
+            }
+            
+            button.signUpBtn {
+                -moz-border-radius: 30px;
+                -webkit-border-radius: 30px;
+                background: red;
+                
+            }
+            
+        }
+        
+        #heroContentRight {
+            
+        }
     }
 }
 
