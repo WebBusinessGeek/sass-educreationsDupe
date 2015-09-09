@@ -10,4 +10,20 @@
     @include background-size();
     min-height: 590px;
     min-width: 100%;
+    
+    #navSection {
+        
+        div > div > #navLogo {
+            height: 60px;
+            width: 60px;
+        }
+        
+        div > div > #navBrand {
+            height: 63px;
+            width: 200px;
+            
+        }
+        
+    }
 }
+

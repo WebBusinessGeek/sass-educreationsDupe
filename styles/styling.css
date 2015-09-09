@@ -6,5 +6,11 @@
   background-size: cover;
   min-height: 590px;
   min-width: 100%; }
+  #heroSection #navSection div > div > #navLogo {
+    height: 60px;
+    width: 60px; }
+  #heroSection #navSection div > div > #navBrand {
+    height: 63px;
+    width: 200px; }
 
 /*# sourceMappingURL=styling.css.map */
