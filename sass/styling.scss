@@ -1,0 +1,13 @@
+@mixin background-size($size: cover) {
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -o-background-size: $size;
+    background-size: $size;
+}
+
+#heroSection {
+    background-image: url('/assets/images/bkg_hero.jpg');
+    @include background-size();
+    min-height: 590px;
+    min-width: 100%;
+}

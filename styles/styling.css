@@ -1,0 +1,10 @@
+#heroSection {
+  background-image: url("/assets/images/bkg_hero.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 590px;
+  min-width: 100%; }
+
+/*# sourceMappingURL=styling.css.map */
